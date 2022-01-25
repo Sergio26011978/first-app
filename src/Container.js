@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  Menu  from './Menu';
+
 
 export default class Container extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ export default class Container extends Component {
       (result) => {
         this.setState({
           isLoaded: true,
-          posts: result.posts
+          posts: result
         });
       },
       (error) => {

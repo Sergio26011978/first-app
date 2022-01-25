@@ -1,6 +1,8 @@
 .Container {
     border: 5px solid#e2635f;
     border-radius: 4px;
+  }
+  .Container > div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }

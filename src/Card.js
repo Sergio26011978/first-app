@@ -1,8 +1,8 @@
 import React from 'react';
 
- const Menu = () => {
+ const Card = () => {
   return <div>
       <h1>Menu</h1>
   </div>;
 };
-export default Menu;
+export default Card;
