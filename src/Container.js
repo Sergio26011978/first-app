@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Card from './Card'
 
 export default class Container extends Component {
   constructor(props) {
@@ -38,15 +38,16 @@ export default class Container extends Component {
     } else if (!isLoaded) {
       return <p> Loading... </p>
     } else {
-      return (
-      <div>
-        {posts.map(post =>(
+  
+      return (<div>
+        {posts?.map(post =>(
           <div key={post.id}>
-            {post.title} {post.body}
+            <div className='card-title'>{post.title}</div>
+             <div className='card-body'>{post.body}</div>
           </div>
         ))}
-      </div>
-      );
+        </div>)
+  
     }
 }
 }
