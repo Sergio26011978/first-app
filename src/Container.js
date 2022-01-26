@@ -42,8 +42,7 @@ export default class Container extends Component {
       return (<div>
         {posts?.map(post =>(
           <div key={post.id}>
-            <div className='card-title'>{post.title}</div>
-             <div className='card-body'>{post.body}</div>
+            <Card post={post}/>
           </div>
         ))}
         </div>)
