@@ -1,10 +1,13 @@
 
-import './App.css';
-import './Header.css'
-import './Container.css'
-import Header from './Header';
-import Container from './Container';
-import './Card.css'
+import Header from '../Header/Header';
+import Container from '../Container/Container';
+import '../Container/Container.css';
+import '../App/App.css';
+import '../Header/Header.css'
+import '../Card/Card.css'
+
+
+
 
 
 function App() {
