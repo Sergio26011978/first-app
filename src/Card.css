@@ -4,11 +4,19 @@
   color: rgb(10, 163, 10);
   background-color: blueviolet;
   text-align:center;
+  border: 5px solid#044e16;
+  border-radius: 2px;
+  height: 100px;
+  overflow-y: hidden;
 }
 .card-body {
   padding: 5px 5px;
   font-size: 20px ;
   color: #1717ce;
+  text-align: center;
   background-color: antiquewhite;
+  border: 5px solid#af086f;
+  border-radius: 2px;
+  height: 100px;
 }
  
